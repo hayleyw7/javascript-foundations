@@ -35,7 +35,7 @@ describe('Bag', function () {
     assert.deepEqual(bag.candies, [newCandy]);
   });
 
-  it.skip('should count the candies in the bag', function() {
+  it('should count the candies in the bag', function() {
     var bag = new Bag();
     var candy = new Candy('Turkish Delight');
     
@@ -44,7 +44,7 @@ describe('Bag', function () {
     assert.equal(bag.count, 1);
   });
 
-  it.skip('should contain candies and candies should have a type', function () {
+  it('should contain candies and candies should have a type', function () {
     var bag = new Bag();
     var candy = new Candy('Hershey\'s Kisses');
     
@@ -56,7 +56,7 @@ describe('Bag', function () {
     assert.instanceOf(bag.candies[0], Candy);
   });
 
-  it.skip('should contain a particular type of candy', function () {
+  it('should contain a particular type of candy', function () {
     var bag = new Bag();
     var candy = new Candy('Lindt Chocolate');
     

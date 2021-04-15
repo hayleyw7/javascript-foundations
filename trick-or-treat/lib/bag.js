@@ -1,16 +1,84 @@
 class Bag {
-  constructor(bag) {
+  constructor(hasCandy) {
     this.empty = true;
+    this.isDelicious = true;
     this.count = 0;
-    this.candies = [];
-  } 
-  fill(candy) {
-    console.log(candy.name)
-    // add candy to this.candies
-      // from 
-    this.candies.push(candy);
+    this.candies = hasCandy || [];
+    this.contains = false;
+  }
+  fill(candyToPush) {
+    this.candies.push(candyToPush);
+    this.count = this.candies.length;
+  }
+  contains() {
+    if (this.candies.includes(hasCandy)) {
+      return true;
+    }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // tasteCandy(candyEaten) {
+  //   if (candyEaten === "Snickers") {
+  //     this.isDelicious = false;
+  //   }
+  // } 
+
+
+
+
+
+
+// Bag.tasteCandy("Snickers");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // creating new instance of Bag called bag
 // creating new instance of Candy called candy
