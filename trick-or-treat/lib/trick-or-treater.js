@@ -1,17 +1,15 @@
-const Candy = require("./candy");
+// const Candy = require("./candy");
 
 class TrickOrTreater {
     constructor(costume, bag) {
         this.dressedUpAs = costume.style;
-        // this.bag = //empty trickOrTreater.bag.candies
+        this.bag = bag;
         this.hasCandy = false;
+        // this.countCandies = this.bag.count;
     }
     putCandyInBag(candy) {
         this.hasCandy = true;
-        // candy.fill(candy)
-    }
-    countCandies() {
-        // bag.this.count.length
+        this.bag.fill(candy);
     }
     eat() {
         // bag.this.count.pop

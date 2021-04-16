@@ -24,7 +24,7 @@ describe('TrickOrTreater', function () {
     assert.equal(trickOrTreater.dressedUpAs, 'Doctor');
   });
 
-  it.skip('should have an empty bag by default', function () {
+  it('should have an empty bag by default', function () {
     var costume = new Costume('Alien');
     var bag = new Bag();
     var trickOrTreater = new TrickOrTreater(costume, bag);
@@ -48,7 +48,7 @@ describe('TrickOrTreater', function () {
   });
 
 
-  it.skip('should add new candy into bag', function () {
+  it('should add new candy into bag', function () {
     var costume = new Costume('Zombie');
     var bag = new Bag();
     var trickOrTreater = new TrickOrTreater(costume, bag);
@@ -58,7 +58,7 @@ describe('TrickOrTreater', function () {
   });
 
 
-  it.skip('should count candies', function () {
+  it('should count candies', function () {
     var costume = new Costume('Spaceship Mechanic');
     var bag = new Bag();
     var trickOrTreater = new TrickOrTreater(costume, bag);
