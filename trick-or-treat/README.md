@@ -13,8 +13,8 @@ Run the command `npm test trick-or-treat/test/candy-test.js`. To run other tests
 ### Make the tests pass in the following sequence:
 
 [x] test/candy-test.js  
-[ ] test/bag-test.js  
-[ ] test/costume-test.js  
+[x] test/bag-test.js  
+[x] test/costume-test.js  
 [ ] test/trick_or_treater-test.js  
 
 _Adapted from Ruby [Objects and Methods](https://github.com/turingschool/ruby-exercises/tree/master/objects-and-methods)_

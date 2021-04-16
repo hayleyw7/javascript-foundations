@@ -59,9 +59,9 @@ describe('Bag', function () {
   it('should contain a particular type of candy', function () {
     var bag = new Bag();
     var candy = new Candy('Lindt Chocolate');
-    
+
     bag.fill(candy);
-    
+
     assert.equal(bag.contains('Lindt Chocolate'), true);
     assert.equal(bag.contains('Hershey\'s Kisses'), false);
   });

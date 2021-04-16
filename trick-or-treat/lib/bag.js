@@ -4,74 +4,36 @@ class Bag {
     this.isDelicious = true;
     this.count = 0;
     this.candies = hasCandy || [];
-    this.contains = false;
+    // if (this.candies.includes(hasCandy)) {
+    //   this.contains = true;
+    // }  
   }
   fill(candyToPush) {
     this.candies.push(candyToPush);
     this.count = this.candies.length;
   }
-  contains() {
-    if (this.candies.includes(hasCandy)) {
-      return true;
+
+
+  contains(candy) {
+    for (var i = 0; i < this.candies.length; i++) {
+      if (candy === this.candies[i].type) {
+        return true;
+      } else {
+        return false;
+      }
     }
   }
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // tasteCandy(candyEaten) {
-  //   if (candyEaten === "Snickers") {
-  //     this.isDelicious = false;
+  // contains(str) {
+  //   if (this.candies.includes(str)) {
+  //     return true;
   //   }
-  // } 
 
+    // input: 1 argument = string
+    // output: boolean
+      // find out if this.candies includes the string entered as an argument in the candy instance of Candy
 
-
-
-
-
-// Bag.tasteCandy("Snickers");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 
 
