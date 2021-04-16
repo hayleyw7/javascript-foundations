@@ -23,6 +23,7 @@ class Bag {
       }
     }
   }
+}
 
   // contains(str) {
   //   if (this.candies.includes(str)) {
@@ -33,7 +34,7 @@ class Bag {
     // output: boolean
       // find out if this.candies includes the string entered as an argument in the candy instance of Candy
 
-  }
+ 
 
 
 
