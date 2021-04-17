@@ -15,6 +15,6 @@ Run the command `npm test trick-or-treat/test/candy-test.js`. To run other tests
 [x] test/candy-test.js  
 [x] test/bag-test.js  
 [x] test/costume-test.js  
-[ ] test/trick_or_treater-test.js  
+[x] test/trick_or_treater-test.js  
 
 _Adapted from Ruby [Objects and Methods](https://github.com/turingschool/ruby-exercises/tree/master/objects-and-methods)_
