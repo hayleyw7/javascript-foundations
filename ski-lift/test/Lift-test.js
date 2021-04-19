@@ -3,37 +3,43 @@ var Skier = require("../src/Skier");
 var Lift = require("../src/Lift");
 
 describe("Ski Lift", function () {
-  it.skip('should instantiate a ski-lift object', function () {
+  it('should instantiate a ski-lift object', function () {
     var lift = new Lift();
 
     assert.instanceOf(lift, Lift);
   });
 
-  it.skip('should be in service', function () {
+  it('should be in service', function () {
     var lift = new Lift();
 
     assert.equal(lift.inService, true);
   });
 
-  it.skip('should have an amount of people it can take per chair', function() {
+  it('should have an amount of people it can take per chair', function() {
     var lift = new Lift(3);
 
     assert.equal(lift.limit, 3);
   });
 
-  it.skip('should start out without any skiiers', function () {
+  it('should start out without any skiiers', function () {
     var lift = new Lift(3);
 
     assert.deepEqual(lift.skiers, []);
   });
 
-  it.skip('should have the bar lifted up by default', function() {
+  it('should have the bar lifted up by default', function() {
     var lift = new Lift(2);
 
     assert.deepEqual(lift.safetyBar, 'up');
   })
 
-  it.skip('should seat skiers', function() {
+
+
+
+
+
+
+  it('should seat skiers', function() {
     var lift = new Lift(3);
   
     lift.admitSkier('Pam', true); 
@@ -41,8 +47,16 @@ describe("Ski Lift", function () {
     
     assert.deepEqual(lift.skiers.length, 2);
     assert.deepEqual(lift.skiers[1].name, 'Jeff');
+
     assert.instanceOf(lift.skiers[1], Skier);
   });
+
+
+
+
+
+
+
 
   it.skip('should only seat skiers if there are enough spots', function() {
     var lift = new Lift(2);
@@ -109,7 +123,7 @@ describe("Ski Lift", function () {
     assert.equal(lift2.safetyBar, 'up');
   });
 
-  it.skip('should know how many skiers are needed before starting', function () {
+  it('should know how many skiers are needed before starting', function () {
     var lift1 = new Lift(4);
     var lift2 = new Lift(3);
 
