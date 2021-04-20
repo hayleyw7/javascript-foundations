@@ -14,5 +14,5 @@ Run the command `npm test crafting/test/material-test.js`. To run other tests, j
 
 ### Make the tests pass in the following sequence:
 
-* test/material-test.js  
-* test/craft-test.js  
+* [x] test/material-test.js  
+* [x] test/craft-test.js  
