@@ -2,7 +2,7 @@ var assert = require('chai').assert;
 var Part = require('../src/part');
 
 describe('Part', function() {
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     var fighterShell = new Part({ name: 'X1-shell' });
     var hyperdrive = new Part({ name: 'CV90-infinity' });
 

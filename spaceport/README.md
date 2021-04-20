@@ -12,8 +12,8 @@ Run the command `npm test spaceport/test/being-test.js`. To run other tests, jus
 
 ### Make the tests pass in the following sequence:
 
-* test/being-test.js  
-* test/part-test.js  
-* test/ship-test.js  
-* test/shop-test.js  
-* test/planet-test.js  
+* [x] test/being-test.js  
+* [ ] test/part-test.js  
+* [ ] test/ship-test.js  
+* [ ] test/shop-test.js  
+* [ ] test/planet-test.js  
