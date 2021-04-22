@@ -13,5 +13,5 @@ Run the command `npm test vending-machine/test/snack-test.js`. To run other test
 
 ### Make the tests pass in the following sequence:
 
-* [ ] test/snack-test.js  
+* [x] test/snack-test.js  
 * [ ] test/vending-machine-test.js  
