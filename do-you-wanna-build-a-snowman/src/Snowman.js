@@ -1,9 +1,9 @@
 class Snowman {
-  constructor(snowmandeets, magicHat) {
-    this.carrots = snowmandeets.carrots;
-    this.coal = snowmandeets.coal;
-    this.buttons = snowmandeets.buttons;
-    this.snowballs = snowmandeets.snowballs;
+  constructor(snowmanDude) {
+    this.carrots = snowmanDude.carrots;
+    this.coal = snowmanDude.coal;
+    this.buttons = snowmanDude.buttons;
+    this.snowballs = snowmanDude.snowballs;
     this.magicHat = false;
   }
   canWearMagicHat() {

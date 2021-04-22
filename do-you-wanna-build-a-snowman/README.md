@@ -15,6 +15,6 @@ Run the command `npm test do-you-wanna-build-a-snowman/test/Snowman-test.js`. To
 ### Make the tests pass in the following sequence:
 
 * [x] test/Snowman-test.js  
-* [ ] test/Human-test.js  
+* [x] test/Human-test.js  
 
 ![success](https://media.giphy.com/media/6ym6xK7Omq9Ak/giphy.gif)
