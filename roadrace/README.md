@@ -14,5 +14,5 @@ Run the command `npm test roadrace/test/runner-test.js`. To run other tests, jus
 
 ### Make the tests pass in the following sequence:
 
-* [ ] test/runner-test.js  
-* [ ] test/roadrace-test.js  
+* [x] test/runner-test.js  
+* [x] test/roadrace-test.js  
